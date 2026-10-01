@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Checkout from './pages/Checkout.jsx'
-import { CartProvider } from './context/Home.jsx'
+import Home from './pages/Home.jsx'
+import { CartProvider } from './context/CartContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <CartProvider>
-      <Checkout />
+      <Home />
     </CartProvider>
   </React.StrictMode>,
 )
