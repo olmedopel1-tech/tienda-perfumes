@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Checkout from './pages/Checkout.jsx'
-import { CartProvider } from './context/CartContext.jsx'
+import { CartProvider } from './context/Home.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
